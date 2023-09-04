@@ -7,13 +7,14 @@ public class CheckFirstDigit {
 		System.out.println("Enter the number");
 		Scanner s=new Scanner(System.in);
 		int i=s.nextInt();
+		int z=0;
 		int n=0;
 		while (i>0) {
 			n=i%10;
 			i/=10;
 		}
 		
-		
+	
 		
 		if (n%2==0) {
 			System.out.println(n+" is a enev number");
